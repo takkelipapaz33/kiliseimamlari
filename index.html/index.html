@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İyi ki Doğdun Kader ❤️</title>
+
+    <link rel="stylesheet" href="../style.css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loader">
+        <h1>✨ Hazırlanıyor...</h1>
+    </div>
+
+    <canvas id="stars"></canvas>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <p class="eyebrow">Doğum günün kutlu olsun</p>
+            <h1>İyi ki varsın, Kader</h1>
+            <p>
+                Bu küçük site, senin gününü daha özel hissettirsin ve sana olan sevgimi biraz daha yakından paylaşayım diye hazırlandı.
+            </p>
+            <div class="hero-actions">
+                <button id="startBtn">Hikâyeyi aç ❤️</button>
+                <a href="#birthday" class="secondary-link">Mesajı oku</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="story">
+        <div class="photo">
+            <img src="../assets/images/kader.jpg" alt="Kader">
+        </div>
+
+        <div class="story-text">
+            <h2>Senin için yazdıklarım...</h2>
+            <p id="typing"></p>
+            <div class="story-badges">
+                <span>Gülüşün</span>
+                <span>Sevgin</span>
+                <span>Mutluluğun</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="birthday">
+        <div class="birthday-card">
+            <p class="card-label">❤️</p>
+            <h1>İYİ Kİ DOĞDUN</h1>
+            <h3>KADER BAL</h3>
+            <p>
+                Hayatın boyunca sağlık, mutluluk, huzur ve umut seninle olsun.
+                Her günün bir rengâhane gibi aydınlık geçsin, kalbin her zaman neşeyle dolsun.
+            </p>
+        </div>
+    </section>
+
+    <section id="ending">
+        <h2>Sevgiyle...</h2>
+        <h1>Alihan Açıkyörük ❤️</h1>
+        <p>Bu gün sadece senin değil, birlikte geçirdiğimiz güzel anların da günü.</p>
+        <button id="surpriseBtn">Son bir sürpriz</button>
+    </section>
+
+    <div id="lastScreen" aria-hidden="true">
+        <div class="surprise-editor">
+            <label for="surpriseImageInput" class="image-picker">Fotoğrafı değiştir</label>
+            <input id="surpriseImageInput" type="file" accept="image/*" hidden>
+        </div>
+        <img id="surpriseImage" src="../assets/images/kader.jpg" alt="Kader">
+        <h1>Gülüşün hiç eksik olmasın... ❤️</h1>
+    </div>
+
+    <script src="../script.js/script.js"></script>
+</body>
+</html>
